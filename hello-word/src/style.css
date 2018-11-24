@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.layout-header { 
+    grid-area: header; 
+    background-color: #2196F3;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.layout-main { 
+    grid-area: main; 
+}
+.layout-footer  { 
+    grid-area: footer; 
+    background-color: #2196F3;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header'
+      'main'
+      'footer';
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
